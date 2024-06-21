@@ -13,7 +13,7 @@ const products = [
   { id: 7,img:"https://uk.gimber.com/cdn/shop/products/GIMBER-500ml_1500x1500_crop_center.jpg?v=1608712713", name: 'GIMBER N°2 500 ml', price: 26.00 },
   { id: 8,img:"https://uk.gimber.com/cdn/shop/products/GIMBER-500ml_1500x1500_crop_center.jpg?v=1608712713", name: 'GIMBER N°2 500 ml', price: 26.00 },
   { id: 9,img:"https://uk.gimber.com/cdn/shop/products/GIMBER-500ml_1500x1500_crop_center.jpg?v=1608712713", name: 'GIMBER N°2 500 ml', price: 26.00 },
-  // Add other products as needed
+ 
 ];
 
 
