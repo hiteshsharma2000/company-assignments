@@ -1,0 +1,185 @@
+#maincon{
+  margin-top: 0%;
+  padding-top: 0%;
+background-image: url('https://tse2.mm.bing.net/th?id=OIP.bw0YpyDxswZSVmoFh6SekwHaEK&pid=Api&P=0&h=220');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.gradient-text {
+  background: linear-gradient(90deg, rgba(255, 105, 180, 1), rgba(30, 144, 255, 1)); /* Pink to Blue gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* Make text color transparent to show the gradient */
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+/* styles.css */
+*{
+  top: 0%;
+}
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 0%;
+}
+
+/* Dark and Light Mode */
+.dark {
+  background-color: #2d2d2d;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+/* Container for Video and Content */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  /* margin-left: 25%; */
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.lesson-title {
+  margin-left: 45%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.toggle-container {
+  margin-right: 20px;
+}
+
+/* Video Player Section */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.video-player {
+  max-width: 800px;
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.spinner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.spinner {
+  width: 4rem;
+  height: 4rem;
+  border: 4px solid #ccc;
+  border-top: 4px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Assessment Section */
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-blue {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.button-blue:hover {
+  background-color: #2563eb;
+}
+
+.button-green {
+  background-color: #10b981;
+  color: white;
+}
+
+.button-green:hover {
+  background-color: #059669;
+}
+
+/* Input Styles */
+.input {
+  width: 90%;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+/* Button Styles */
+.full-width-button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #10b981;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.full-width-button:disabled {
+  background-color: #d1d5db;
+  cursor: not-allowed;
+}
+
+.full-width-button:hover:not(:disabled) {
+  background-color: #059669;
+}
