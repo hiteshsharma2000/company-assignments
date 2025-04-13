@@ -1,0 +1,58 @@
+{
+    "status": "SUCCESS",
+    "data": {
+      "questions": [
+        {
+          "question": "The company's _____________ approach to product development _____________ customer feedback at every stage, _____________ user satisfaction and _____________ a loyal consumer base.",
+          "options": ["Incorporated", "User-centric", "Enhancing", "Cultivating"],
+          "correctAnswer": ["User-centric", "Incorporated", "Enhancing", "Cultivating"]
+        },
+        {
+          "question": "The _____________ musical performance _____________ elements from various genres, _____________ the audience with its unique sound and _____________ critical acclaim from industry experts.",
+          "options": ["Captivating", "Eclectic", "Garnering", "Blended"],
+          "correctAnswer": ["Eclectic", "Blended", "Captivating", "Garnering"]
+        },
+        {
+          "question": "The scientist's _____________ research on quantum computing _____________ new possibilities for data processing, _____________ traditional limitations and _____________ the way for groundbreaking technological advancements.",
+          "options": ["Pioneering", "Paving", "Overcoming", "Opened up"],
+          "correctAnswer": ["Pioneering", "Opened up", "Overcoming", "Paving"]
+        },
+        {
+          "question": "The _____________ implementation of machine learning algorithms in medical diagnostics _____________ early detection of diseases, _____________ treatment outcomes and _____________ the workload of healthcare professionals.",
+          "options": ["Improving", "Reducing", "Enabled", "Revolutionary"],
+          "correctAnswer": ["Revolutionary", "Enabled", "Improving", "Reducing"]
+        },
+        {
+          "question": "The _____________ security breach at the tech giant _____________ millions of users' data, _____________ concerns about online privacy and _____________ calls for stricter regulations.",
+          "options": ["Raising", "Massive", "Prompting", "Compromised"],
+          "correctAnswer": ["Massive", "Compromised", "Raising", "Prompting"]
+        },
+        {
+          "question": "The _____________ educational reform _____________ a more inclusive curriculum, _____________ equal opportunities for all students and _____________ the overall quality of public schooling.",
+          "options": ["Comprehensive", "Enhancing", "Implemented", "Promoting"],
+          "correctAnswer": ["Comprehensive", "Implemented", "Promoting", "Enhancing"]
+        },
+        {
+          "question": "The company's _____________ commitment to sustainability _____________ eco-friendly practices across all departments, _____________ its carbon footprint and _____________ a model for corporate responsibility.",
+          "options": ["Implemented", "Setting", "Unwavering", "Reducing"],
+          "correctAnswer": ["Unwavering", "Implemented", "Reducing", "Setting"]
+        },
+        {
+          "question": "The _____________ implementation of artificial intelligence in healthcare _____________ patient outcomes, _____________ the workload of medical professionals and _____________ new avenues for personalized treatment.",
+          "options": ["Opening", "Improved", "Gradual", "Reducing"],
+          "correctAnswer": ["Gradual", "Improved", "Reducing", "Opening"]
+        },
+        {
+          "question": "The _____________ festival _____________ artists from diverse backgrounds, _____________ cultural exchange and _____________ a platform for emerging talents to showcase their work.",
+          "options": ["Providing", "Brought together", "Promoting", "International"],
+          "correctAnswer": ["International", "Brought together", "Promoting", "Providing"]
+        },
+        {
+          "question": "The _____________ implementation of smart city technologies _____________ urban efficiency and sustainability, _____________ quality of life for residents and _____________ a model for future urban development.",
+          "options": ["Enhancing", "Improved", "Providing", "Widespread"],
+          "correctAnswer": ["Widespread", "Improved", "Enhancing", "Providing"]
+        }
+      ]
+    }
+  }
+  
