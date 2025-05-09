@@ -3,7 +3,7 @@
 This project contains all features like - login,register functionality with jwt,bcrypt, and razorpay payment gateway
 
 ## make sure before start app create .env file 
--add these variable for backend
+ ### add these variable for backend
   -mongourl
   -PORT
   -key_id
