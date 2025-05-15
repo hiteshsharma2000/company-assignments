@@ -60,6 +60,15 @@ function decrypt(encrypted) {
   return decrypted;
 }
 
+
+app.get("/",(req,res)=>{
+  try{
+    res.send({msg:"welcome to home page"})
+  }
+  catch{
+    res.send({msg:"something went wrong"})
+  }
+});
 app.post('/ops/login', (req, res) => {
   const { email, password } = req.body;
   if (email !== OPS_EMAIL || !bcrypt.compareSync(password, OPS_PASSWORD_HASH)) {
